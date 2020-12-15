@@ -1,4 +1,4 @@
-var hours_minutes = "";
+
 
 function to_hours_minutes(num){
     var hr_or_hrs = "";
@@ -18,6 +18,5 @@ function to_hours_minutes(num){
         min_or_mins = "minute";
     }
 
-    hours_minutes = hours + " " + hr_or_hrs + ", " + minutes + " " + min_or_mins;
+    console.log(hours + " " + hr_or_hrs + ", " + minutes + " " + min_or_mins);
 }
-
